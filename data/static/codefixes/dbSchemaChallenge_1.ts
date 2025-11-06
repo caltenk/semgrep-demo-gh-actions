@@ -12,6 +12,6 @@ module.exports = function searchProducts () {
         res.json(utils.queryResultToJson(products))
       }).catch((error: ErrorWithParent) => {
         next(error.parent)
-      })
+      }) 
   }
 }
