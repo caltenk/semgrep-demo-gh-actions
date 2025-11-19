@@ -67,7 +67,8 @@
     "rsn": "ts-node rsn/rsn.ts",
     "rsn:verbose": "ts-node rsn/rsn-verbose.ts",
     "rsn:update": "ts-node rsn/rsn-update.ts",
-    "vagrant": "cd vagrant && vagrant up"
+    "vagrant": "cd vagrant && vagrant up",
+    "bad-glob": "glob -c 'echo %s' 'src/**/*.js'"
   },
   "jest": {
     "preset": "ts-jest",
