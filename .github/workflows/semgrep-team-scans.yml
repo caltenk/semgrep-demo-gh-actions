@@ -6,8 +6,6 @@ on:
   workflow_dispatch: {}
   # Run a full scan when the Semgrep workflow file is changed:
   push:
-    branches:
-      - main
     paths:
       - '.github/workflows/semgrep-team-scans.yml'
   # Schedule a daily full scan CI job (this method uses cron syntax):
