@@ -10,7 +10,7 @@ module.exports = function login () {
         res.json({ authentication: { token, bid: basket.id, umail: user.data.email } })
       }).catch((error: Error) => {
         next(error)
-      })
+      }) //Test
   }
 
   return (req: Request, res: Response, next: NextFunction) => {
