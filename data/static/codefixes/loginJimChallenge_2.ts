@@ -36,3 +36,4 @@ module.exports = function login () {
         next(error)
       })
   }
+  // Test
