@@ -11,6 +11,7 @@ const redirectAllowlist = new Set([
 exports.redirectAllowlist = redirectAllowlist
 
 // Test
+// Test 2
 exports.isRedirectAllowed = (url: string) => {
   let allowed = false
   for (const allowedUrl of redirectAllowlist) {
