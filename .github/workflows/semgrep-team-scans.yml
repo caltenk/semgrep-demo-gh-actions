@@ -1,0 +1,8 @@
+name: Semgrep Team Scans
+'on':
+  workflow_dispatch: {}
+  push:
+    paths:
+    - .github/workflows/semgrep-team-scans.yml
+  schedule:
+  - cron: 17 3 * * *
