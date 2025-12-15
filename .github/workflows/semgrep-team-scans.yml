@@ -1,6 +1,8 @@
 # Name of this GitHub Actions workflow.
 name: Semgrep
 
+# test comment
+
 on:
   # Scan on-demand through GitHub Actions interface:
   workflow_dispatch: {}
